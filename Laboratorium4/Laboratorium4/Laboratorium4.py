@@ -7,25 +7,30 @@
 class Kawiarka:
 
     nazwa_kawy = []
+    temperatury = []
+    czasy = []
+    mleka = []
+    cukry = []
+    pojemnosci = []
 
 def wlacz_wylacz_podgrzewanie(self):
     return stan
 
 def dodaj_czas_parzenia(self czas_parzenia):
-    return czas_parzenia
+    return indeks_czas_parzenia
 
 def dodaj_temperature_wody(self, wysokosc_temperatury):
-    return temperatura
+    return indeks_temperatura
 
 def dodaj_pojemosc_naczynia(self, pojemnosc_naczynia):
-    return pojemnosc
+    return indeks_pojemnosc
 
 def dodaj_ilosc_mleka(self, ilosc_mleka):
-    return mleko
+    return indeks_mleko
 
 def dodaj_ilosc_cukru(self, ilosc_cukru):
-    return cukier
+    return indeks_cukier
 
-def dodaj_parametry_do_kawy(self, nazwa, czas_parzenia, temperatura, pojemnosc, mleko, cukier):
-    return nazwa_kawy
+def dodaj_parametry_do_kawy(self, nazwa, indeks_czas_parzenia, indeks_temperatura, indeks_pojemnosc, indeks_mleko, indeks_cukier):
+    return indeks_nazwa_kawy
 
