@@ -1,0 +1,7 @@
+OFF
+OFF
+ON
+OFF
+ON
+ON
+ON
